@@ -19,6 +19,7 @@
 		CE86BE6217DA0A4400C3B544 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86BE4A17DA0A4300C3B544 /* UIKit.framework */; };
 		CE86BE6A17DA0A4400C3B544 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE86BE6817DA0A4400C3B544 /* InfoPlist.strings */; };
 		CE86BE6C17DA0A4400C3B544 /* TestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86BE6B17DA0A4400C3B544 /* TestsTests.m */; };
+		CE86BE7617DA0F9500C3B544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE86BE7517DA0A6B00C3B544 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,7 @@
 		CE86BE6717DA0A4400C3B544 /* TestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestsTests-Info.plist"; sourceTree = "<group>"; };
 		CE86BE6917DA0A4400C3B544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE86BE6B17DA0A4400C3B544 /* TestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestsTests.m; sourceTree = "<group>"; };
-		CE86BE7517DA0A6B00C3B544 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CE86BE7517DA0A6B00C3B544 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +113,7 @@
 				CE86BE5617DA0A4300C3B544 /* AppDelegate.m */,
 				CE86BE5817DA0A4300C3B544 /* Images.xcassets */,
 				CE86BE4D17DA0A4300C3B544 /* Supporting Files */,
-				CE86BE7517DA0A6B00C3B544 /* Storyboard.storyboard */,
+				CE86BE7517DA0A6B00C3B544 /* Main.storyboard */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -221,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE86BE7617DA0F9500C3B544 /* Main.storyboard in Resources */,
 				CE86BE5117DA0A4300C3B544 /* InfoPlist.strings in Resources */,
 				CE86BE5917DA0A4300C3B544 /* Images.xcassets in Resources */,
 			);
@@ -437,6 +439,7 @@
 				CE86BE7117DA0A4400C3B544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE86BE7217DA0A4400C3B544 /* Build configuration list for PBXNativeTarget "TestsTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +448,7 @@
 				CE86BE7417DA0A4400C3B544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
